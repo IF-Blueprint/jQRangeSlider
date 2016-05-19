@@ -1,0 +1,30 @@
+{
+  "name": "bower-jqrangeslider",
+  "version": "5.4.0",
+  "homepage": "http://ghusse.github.io/jQRangeSlider",
+  "authors": [
+    "Guillaume Gautreau <guillaume@ghusse.com>"
+  ],
+  "main": [
+    "./jQAllRangeSliders.js",
+    "./jQAllRangeSliders-withRuler.js",
+    "./jQDateRangeSlider.js",
+    "./jQDateRangeSlider-withRuler.js",
+    "./jQRangeSlider.js",
+    "./jQRangeSlider-withRuler.js",
+    "./css/iThing.css",
+    "./css/classic.css"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.1",
+    "jquery-ui": "~1.10.3"
+  },
+  "description": "A jquery UI range selection slider that supports dates",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
